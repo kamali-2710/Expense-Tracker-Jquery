@@ -153,22 +153,22 @@
             }
 
             rows += `<tr style="font-weight:500; color:white">
-        <td style="background:${ele.category === "Income" ? "#08be14" : "#E52020"};
+        <td style="background:${ele.category === "Income" ? "#08be30" : "#E52030"};
           font-weight:bold;">${index + 1}</td>
 
-         <td style="background:${ele.category === "Income" ? "#08be14" : "#E52020"};">
+         <td style="background:${ele.category === "Income" ? "#08be30" : "#E52030"};">
            ${ele.category}
         </td> 
 
-          <td style="background:${ele.category === "Income" ? "#08be14" : "#E52020"};">
+          <td style="background:${ele.category === "Income" ? "#08be30" : "#E52030"};">
          ${ele.expense}
          </td>
 
-         <td style="background:${ele.income != 0 ? "#08be14" : "#E52020"};">
+         <td style="background:${ele.income != 0 ? "#08be30" : "#E52030"};">
           ${ele.income != 0 ? "₹ " + ele.income : "-"}
          </td>
 
-          <td style="background:${ele.expenseAmt != 0 ? "#E52020" : "#08be14"};">
+          <td style="background:${ele.expenseAmt != 0 ? "#E52030" : "#08be30"};">
            ${ele.expenseAmt != 0 ? "₹ " + ele.expenseAmt : "-"}
           </td>
           </tr>`;
@@ -177,7 +177,7 @@
           // Total Income Row
 
           rows += `
-           <tr style="background:#f2f2f2">
+           <tr style="background:#f2f2f7">
             <td></td><td></td>
             <td colspan="1" style="text-align:center; font-size:17px; font-weight:600">Total</td>
             <td class="income-cell" style="color:green; font-size:17px; font-weight:600">₹ ${totalIncome}.00 Rs</td>

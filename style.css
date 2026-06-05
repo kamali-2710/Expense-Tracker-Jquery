@@ -9,7 +9,7 @@
 
 body {
   /* border: 1px solid red; */
-  background: #030d06;
+  background: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +17,7 @@ body {
   padding: 20px 0;
   overflow: auto;
   margin-bottom: 60px;
+  background:linear-gradient(to left,#152331,#000000);
 }
 .table-wrapper {
   /* border: 1px solid green; */
@@ -38,10 +39,9 @@ body {
   flex-direction: column;
   gap: 16px;
   padding: 20px 40px;
-  margin: 20px 0px 50px;
+  margin: 20px 0px 40px;
   border-radius: 10px;
-  background-color: #19b84bc7;
-  /* background:linear-gradient(#19b84b,#08be14); */
+  background:linear-gradient(#2a3f53,#22384f);
 }
 .title {
   /* border: 1px solid; */
@@ -61,11 +61,12 @@ select {
   border: none;
   outline: none;
   font-size: 0.9rem;
+  margin-top: 15px;
 }
 
 ::placeholder,
 select {
-  color: rgba(0, 0, 0, 0.6);
+  color: black;
 }
 
 /* Button */
@@ -75,17 +76,17 @@ select {
   font-size: 0.8rem;
   color: white;
   cursor: pointer;
-  box-shadow: 1px 1px 2px rgb(60, 69, 60);
-  background: linear-gradient(to left, #06822d, #08be14);
+  box-shadow: 1px 1px 2px #4b6e91;
+  background: linear-gradient(to left, #284560,#4b6e91);
   transition: 0.8s;
 }
 
 button:hover {
-  background: linear-gradient(to right, #06822d, #08be14);
+  background: linear-gradient(to left, #2a3f53,#000000);
 }
 .summary-box {
   padding: 15px 40px;
-  background: #133824;
+ background:linear-gradient(#2a3f53,#22384f);
   box-shadow: 1px 1px 2px;
   border-radius: 10px;
   color: white;
@@ -103,22 +104,22 @@ button:hover {
 }
 
 #totalIncomeDisplay {
-  color: #08be14;
+  color: rgb(234, 221, 221);
   font-weight: bold;
 }
 
 #totalExpenseDisplay {
-  color: #08be14;
+  color: white;
   font-weight: bold;
 }
 
 #balanceDisplay {
-  color: orange;
+  color: rgb(234, 221, 221);
   font-weight: bold;
 }
 /* Error Text */
 .err {
-  color: rgb(146, 8, 8);
+  color: rgb(236, 71, 71);
   font-size: 0.75rem;
   margin-top: -10px;
   padding-left: 6px;
@@ -129,7 +130,7 @@ button:hover {
   margin: 0px 10px;
   width: 120px;
   padding-bottom: 10px;
-  background-color: #08be1498;
+  background: linear-gradient(to left, #284560,#4b6e91);
   color: white;
 }
 
@@ -150,7 +151,7 @@ table {
 }
 
 th {
-  background: #03331a;
+  background:linear-gradient(#2a3f53,#22384f);
   color: white;
   font-weight: 600;
   font-size: 0.9rem;
