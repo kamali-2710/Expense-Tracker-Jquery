@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   gap: 16px;
   padding: 20px 40px;
-  margin: 20px 0px 40px;
+  margin: 20px 0px 30px;
   border-radius: 10px;
   background:linear-gradient(#2a3f53,#22384f);
 }
@@ -61,7 +61,7 @@ select {
   border: none;
   outline: none;
   font-size: 0.9rem;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 ::placeholder,
@@ -132,6 +132,7 @@ button:hover {
   padding-bottom: 10px;
   background: linear-gradient(to left, #284560,#4b6e91);
   color: white;
+  cursor: pointer;
 }
 
 /* ===== TABLE ===== */
